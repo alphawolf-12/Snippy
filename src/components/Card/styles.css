@@ -1,0 +1,39 @@
+.card{
+    height: 230px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 8px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.card-image-div{
+    height: 190px;
+    width: 100%;
+}
+
+.card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-style: none;
+}
+
+.card-title{
+    height: 40px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.text-setting{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

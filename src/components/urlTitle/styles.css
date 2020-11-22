@@ -1,0 +1,12 @@
+.url-title{
+    display: flex;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.url{
+    margin-left: 5px;
+    font-weight: 500;
+    color: #fff;
+}
+
