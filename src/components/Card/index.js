@@ -9,7 +9,7 @@ const Card = data => {
                 <img className="card-image" loading='lazy' src={cardData.image_url} alt={cardData.title}/>
             </div>
             <div className="card-title">
-                <span className="text-setting"> {cardData.title} </span>
+                <span > {cardData.title} </span>
             </div>
         </a>
     )

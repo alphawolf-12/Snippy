@@ -23,14 +23,16 @@ class ImagesSection extends Component {
 
     renderResults = (results, currentPage, lastPage) => {
         return (
-            <div style={{display: 'grid'}}>
-                <div style={{ display: 'flex',flexWrap: 'wrap', margin :'2% 10%'}}>
-                    {results.map( ele => <Card data={ele} />)}
+            <div style={{display: 'table'}}>
+                <div style={{ display: 'flex',flexWrap: 'wrap', margin :'2%'}}>
+                    {results.map( ele =>  <Card data={ele} />)}
                 </div>
                 {currentPage <= lastPage && 
+                <div style={{display:'flex'}}>
                     <button 
                         className="load-more" 
                         onClick={this.handleLoadMore}> Load More </button> 
+                </div>
                 }
             </div>
         );
