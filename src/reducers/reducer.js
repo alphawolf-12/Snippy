@@ -26,7 +26,8 @@ const reducer = (state = INITIAL_STATE, action) => {
             if(payload && payload.destroyPrevious){
                 return {
                     ...state,
-                    resultsLoading: true
+                    resultsLoading: true,
+                    results : []
                 }
             }else{
             return {
